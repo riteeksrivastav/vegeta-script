@@ -7,10 +7,12 @@ Should know about Vegeta. You can check [this](https://github.com/tsenart/vegeta
 ## How to use
 1. Create the request json file. 
 2. Run `./load_test.sh { put vegeta_request_file} {no. of rounds you want to do the load testing}` 
-    e.g. `./load_test.sh api_request.json 10`
 
-3. The script will create output files for diffent concurrency (currently hardcoded in script as 50, 100, 150 and 200)in `/tmp/`. 
-    e.g file will be named like `vegeta-benchmark-50.txt`.
+        e.g. `./load_test.sh api_request.json 10`
+
+3. The script will create output files for diffent concurrency (currently hardcoded in script as 50, 100, 150 and 200)in `/tmp/`.
+
+        e.g file will be named like `vegeta-benchmark-50.txt`.
 
 4. Terminal output will look something like 
 ```
